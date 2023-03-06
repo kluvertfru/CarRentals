@@ -82,7 +82,7 @@ class Home extends Component {
                         <h3>Clean cars. Flexible bookings. <br/>  Socially distant rental counters.
                         </h3>
                         <p>We’re working with our partners to keep you safe and in <br/>  the driving seat.
-                        </p> <br/> 
+                        </p> <br/> <br/> 
                         <p>Find out more</p>
                     </div>
                     <div>
