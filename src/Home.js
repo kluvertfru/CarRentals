@@ -9,8 +9,9 @@ import email_signup from "./images/email_signup.png"
 
 class Home extends Component {
     render() {
+
         return (
-            <div>
+            <div className="container">
 
                 <div>
 
@@ -60,7 +61,7 @@ class Home extends Component {
 
                     </div>
 
-                    <div className="flex"> 
+                    <div className="flex">
                         <img src={wallet} alt="/" />
                         <div>
                             <h3>Price Match Guarantee
@@ -72,16 +73,16 @@ class Home extends Component {
                     </div>
 
 
-                </div>
+                </div> <br/> <br/> <br/> 
 
-                <div>
+                <div className="flex">
 
-                    <div>
+                    <div >
                         <img src={covid} alt="/" />
-                        <h3>Clean cars. Flexible bookings. Socially distant rental counters.
+                        <h3>Clean cars. Flexible bookings. <br/>  Socially distant rental counters.
                         </h3>
-                        <p>We’re working with our partners to keep you safe and in the driving seat.
-                        </p>
+                        <p>We’re working with our partners to keep you safe and in <br/>  the driving seat.
+                        </p> <br/> 
                         <p>Find out more</p>
                     </div>
                     <div>
